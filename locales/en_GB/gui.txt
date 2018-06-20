@@ -1,0 +1,145 @@
+# *******************************   
+# ***** OPENING GAME SCREEN *****
+# *******************************
+opening.language.select = Select Language
+opening.starting.pleaseWait = Starting game...
+opening.introduction.text = <h1>Welcome!</h1>\
+                            <p>\
+                                Your party has won the recent elections and you have been appointed Prime Minister. \
+                                The whole four-year term lies ahead. \
+                                Remember that the voters are counting on you. \
+                                Fulfill their hopes for prosperity and high quality of life \
+                                and they will express their gratitude at the ballot box in four years. \
+                                Disappoint them, and they will turn their backs on the ruling party. \
+                                Be warned! Your party colleagues will not be happy about supporting a highly \
+                                unpopular government and may decide to remove you from office. \
+                            </p>\
+                            <p class="right">Good luck.</p>
+
+
+# *******************************   
+# ******* MAIN GAME SCREEN ******
+# *******************************
+game.scene.turnsToElections = Turns to elections
+game.scene.nextTurnTooltip = Next turn
+
+
+# *********************************************************   
+# ***** TOOLTIPS FOR CHART, EDITOR AND DETAILS BUTTONS ****
+# *********************************************************
+game.buttons.chart.tooltip = View chart
+game.buttons.editor.tooltip = Edit policy
+game.buttons.details.tooltip = View details
+
+
+# **************************
+# ******* REPORT CARD ******
+# **************************
+game.scene.report.caption = Report
+
+
+# ***************************
+# ******* ECONOMY CARD ******
+# ***************************
+game.scene.economy.caption = Economy
+game.scene.economy.variable = Variable
+game.scene.economy.value = Value
+game.scene.economy.change = Change
+
+
+# ***************************
+# ****** POLICIES CARD ******
+# ***************************
+game.scene.policies.caption = Policies
+game.scene.policies.policy = Policy
+game.scene.policies.current = Current value
+game.scene.policies.new = New value
+
+
+# ***************************
+# ******* BUDGET CARD *******
+# ***************************
+game.scene.budget.caption = Budget
+game.scene.budget.policy = Policy
+game.scene.budget.current = Current balance
+game.scene.budget.planned = Planned balance
+game.scene.budget.total = Total:
+
+
+# ***************************
+# ****** SOCIETY CARD *******
+# ***************************
+game.scene.society.caption = Society
+game.scene.society.socialGroup = Social Group
+game.scene.society.population = Population
+game.scene.society.approvalRating = Approval Rating
+
+
+# ***************************
+# ******* ALL POPUPS ********
+# ***************************
+game.popups.close = Close
+
+
+# ***************************
+# ****** CHART POPUPS *******
+# ***************************
+game.popups.charts.nominalValue = Nominal Value
+game.popups.charts.realValue = Real Value
+
+
+# *****************************
+# **** SOCIAL GROUP POPUPS ****
+# *****************************
+game.popups.details.numPeople = Number of people:
+game.popups.details.populationPart = Percentage of total population:
+game.popups.details.approvalRating = Approval rating in group:
+game.popups.details.averageGrossIncome = Average gross income:
+game.popups.details.appreciate = Appreciate:
+game.popups.details.criticize = Criticize:
+game.popups.details.nothing = Nothing
+
+
+# ******************************
+# **** POLICY EDITOR POPUPS ****
+# ******************************
+game.popups.editor.ok = OK
+game.popups.editor.cancel = Cancel
+game.popups.editor.taxRate = Tax rate:
+game.popups.editor.aveBenefit = Average benefit value:
+game.popups.editor.funds = Funds:
+game.popups.editor.age = Age:
+game.popups.editor.revenues = Revenues:
+game.popups.editor.costs = Costs:
+
+
+# ******************************
+# ***** CONFIRM QUIT POPUP *****
+# ******************************
+game.popups.confirmQuit.caption = Do you really want to quit the game?
+game.popups.confirmQuit.yes = Yes
+game.popups.confirmQuit.no = No
+
+
+# ******************************
+# **** POLICY EDITOR POPUPS ****
+# ******************************
+game.popups.reduceDeficit.caption = STOP!!!
+game.popups.reduceDeficit.text = National debt has exceeded 50% of GDP!<br> You must reduce the planned budget deficit to zero,<br> before playing the next turn.
+
+
+# **************************
+# **** NEXT TURN SCREEN ****
+# **************************
+game.nextturn.pleaseWait = Please Wait...
+game.nextturn.elections = Elections!
+game.nextturn.electionsResult = Elections result:
+game.nextturn.electionsWon = Victory!
+game.nextturn.electionsLost = Failure
+game.nextturn.pressAnyKeyToContinue = Click to continue.
+game.nextturn.gameover.header = Game Over!
+game.nextturn.gameover.electionsLost = Your party has lost the elections.<br>Your mission as the prime minister has ended.<br>You have lost the game.
+game.nextturn.gameover.resignantion = You were forced to step down from office.<br>You have lost the game.
+game.nextturn.gameover.gameWon = Congratulations!<br>You have survived the whole term in office and lead your party to yet another victory!<br>You have won the game.
+game.nextturn.gameover.pressAnyKeyToEnd = Click to quit.
+

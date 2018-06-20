@@ -1,0 +1,143 @@
+#******************************************
+#************ REPORT MESSAGES *************
+#******************************************
+
+# Economy - general:
+report.economy-general.domestic_very_good = El estado general de nuestra economía es muy bueno.
+report.economy-general.domestic_good = El estado general de nuestra economía es bastante bueno.
+report.economy-general.domestic_average = El estado general de nuestra economía es satisfactorio aunque el crecimiento es bastante lento.
+report.economy-general.domestic_poor = Nuestra economía está estancada.
+report.economy-general.domestic_very_poor = Nuestra economía está en crisis.
+
+report.economy-general.global_economy_condition_very_good = La economía mundial está en auge.
+report.economy-general.global_economy_condition_good = La economía mundial está en buenas condiciones.
+report.economy-general.global_economy_condition_poor = La economía mundial está en una situación bastante pobre.
+report.economy-general.global_economy_condition_very_poor = La economía mundial está estancada.
+report.economy-general.global_economy_growing = La economía mundial está creciendo. Los expertos en economía predicen que el valor de las exportaciones crecerá en los próximos meses.
+report.economy-general.global_economy_shrinking = El crecimiento de la economía mundial se está desacelerando. Los expertos en economía predicen que las exportaciones caerán en los próximos meses.
+
+report.economy-general.budget_deficit_high = El déficit presupuestario es elevado, pero se mantiene constante.
+report.economy-general.budget_deficit_high_rising = El déficit presupuestario es elevado y además va en aumento.
+report.economy-general.budget_deficit_high_falling = El déficit presupuestario es elevado, pero está decreciendo.
+report.economy-general.budget_deficit_low = El déficit presupuestario es bajo y se mantiene constante.
+report.economy-general.budget_deficit_low_rising = El déficit presupuestario es bajo, pero va en aumento.
+report.economy-general.budget_deficit_low_falling = El déficit presupuestario es bajo y además está decreciendo.
+report.economy-general.budget_surplus_low = Tenemos un pequeño superávit en el presupuesto.
+report.economy-general.budget_surplus_low_rising = El superávit presupuestario es modesto, pero va en aumento.
+report.economy-general.budget_surplus_low_falling = El superávit presupuestario es pequeño, pero está decreciendo.
+report.economy-general.budget_surplus_high = El superávit presupuestario es bastante elevado.
+report.economy-general.budget_surplus_high_rising = El superávit presupuestario es bastante elevado y además va en aumento. 
+report.economy-general.budget_surplus_high_falling = El superávit presupuestario es bastante elevado, pero está decreciendo.
+
+report.economy-general.natl_debt_threshold_close_deficit_high = El nivel de endeudamiento está cerca del umbral del 50% del PIB. Con un elevado déficit presupuestario el umbral se alcanzará pronto. Esto tendrá consecuencias importantes.
+report.economy-general.natl_debt_threshold_close_deficit_low = El nivel de endeudamiento está cerca del umbral del 50% del PIB. Aunque el déficit presupuestario es bastante bajo el umbral podría alcanzarse pronto. Esto tendría consecuencias importantes.
+report.economy-general.natl_debt_threshold_exceeded = El nivel de endeudamiento ha superado el umbral del 50% del PIB. El déficit presupuestario previsto se debe reducir a cero.
+
+
+# Economy - details:
+report.economy-details.unemployment_benefits_1 = Prestaciones por desempleo elevadas contribuirán a un aumento en el consumo y por lo tanto estimularán la economía. Por otra parte, un alto valor de las prestaciones por desempleo puede hacer a los desempleados ser reticentes a la búsqueda activa de empleo.
+report.economy-details.unemployment_benefits_2 = Prestaciones por desempleo moderadas pueden provocar una caída en el consumo y por consiguiente, retardar el crecimiento de la economía. Por otro lado, el bajo valor de las prestaciones por desempleo puede obligar a los desempleados a buscar trabajo.
+
+report.economy-details.unemployment_benefits_consumption_1 = Un aumento de las prestaciones por desempleo provocará un aumento del consumo, ya que los desempleados tendrán más dinero para gastar.
+report.economy-details.unemployment_benefits_consumption_2 = Una reducción de las prestaciones por desempleo provocará una caída del consumo, ya que los desempleados tendrán menos dinero para gastar.
+
+report.economy-details.retirement_benefits_consumption_1 = Un aumento en las prestaciones por jubilación provocará un mayor consumo ya que los jubilados tendrán más dinero para gastar.
+report.economy-details.retirement_benefits_consumption_2 = Bajar las prestaciones por jubilación nos llevará a una disminución del consumo ya que los jubilados tendrán menos dinero para gastar.
+
+report.economy-details.vat_inflation_1 = Un tipo de IVA más alto ha causado un aumento repentino de los precios y, por tanto, una tasa de inflación más alta. Este efecto debería ser temporal.
+report.economy-details.vat_inflation_2 = Un tipo de IVA reducido ha provocado una disminución de los precios y, por tanto, una menor tasa de inflación. La caída de la inflación es temporal.
+
+report.economy-details.vat_inflation_output_1 = Una tasa de IVA más elevada ha hecho que las empresas transfieran una mayor parte de sus ingresos al Estado. Con el fin de compensar la pérdida de ingresos, las empresas han aumentado los precios y esto ha causado una tasa de inflación más alta y una menor producción.
+report.economy-details.vat_inflation_output_2 = Una disminución en la tasa de IVA ha hecho que las empresas de transfieran una parte más pequeña de sus ingresos al Estado. Como consecuencia de ello, algunas empresas han decidido reducir los precios para vender más. Esto ha supuesto una caída en la tasa de inflación y un aumento de la producción.
+
+report.economy-details.vat_output_1 = Como consecuencia de una tasa de IVA más elevada, las compañías deben contribuir con una mayor parte de sus ingresos al Estado y por lo tanto han decidido producir menos. Esto ha provocado una caída de la producción.
+report.economy-details.vat_output_2 = Una tasa más baja de IVA hace que las empresas ganen más, ya que contribuyen con una parte más pequeña de sus ingresos al Estado. Esto ha provocado un aumento de la producción.
+
+report.economy-details.income_tax_consumption_1 = La tasa de IRPF más alta ha provocado una reducción del consumo y, como consecuencia de ello, las empresas tienen menos dinero para gastar.
+report.economy-details.income_tax_consumption_2 = Una tasa de IRPF más baja ha provocado un aumento del consumo y, como consecuencia de ello, las empresas tienen más dinero para gastar.
+
+report.economy-details.consumption_output_1 = El aumento del consumo está causando un aumento de la producción.
+report.economy-details.consumption_output_2 = La caída del consumo está provocando a su vez una caída de la producción.
+
+report.economy-details.exports_output_1 = El aumento de las exportaciones está provocando un aumento de la producción.
+report.economy-details.exports_output_2 = La caída de las exportaciones está provocando una caída de la producción.
+
+report.economy-details.investment_output_1 = El aumento de las inversiones está provocando un aumento de la producción.
+report.economy-details.investment_output_2 = La caída de las inversiones está provocando una caída de la producción.
+
+report.economy-details.output_unemployment_1 = Con el aumento de la producción, las empresas emplean a más personas y por lo tanto la tasa de desempleo cae.
+report.economy-details.output_unemployment_2 = Con la caída de la producción, las empresas despiden personal por lo que la tasa de desempleo aumenta.
+
+report.economy-details.unemployment_wages_1 = Cuando hay menos gente en busca de empleo es más difícil para los empresarios encontrar trabajadores, lo que hace a los trabajadores más valiosos y les permite pedir salarios más altos.
+report.economy-details.unemployment_wages_2 = Cuando el número de personas que buscan empleo aumenta, los empresarios tratarán de reducir los salarios ya que el riesgo de perder a un gran número de empleados es relativamente pequeño. Los empleados se mostrarán reacios a dejar sus trabajos ya que saben que encontrar un nuevo puesto de trabajo será difícil, por lo que aceptarán salarios más bajos.
+
+report.economy-details.wages_inflation_1 = El aumento de los salarios está provocando una mayor tasa de inflación ya que los costos de producción aumentan y, como consecuencia de ello, los precios de los productos y servicios también se incrementan.
+report.economy-details.wages_inflation_2 = La disminución de los salarios debe reducir la tasa de inflación, ya que salarios más bajos significan menores costos de producción y esto debe provocar una disminución de los precios.
+
+report.economy-details.inflation_investment_1 = El aumento de la tasa de inflación hace que los inversores se muestren más cuidadosos y decidan  invertir menos.
+report.economy-details.inflation_investment_2 = La tasa de inflación está cayendo. Los inversores percibirán esto como una buena señal y comenzarán a invertir más.
+
+
+# Approval ratings:
+report.approvalRating.very_high = ¡Tus índices de aprobación son muy altos!
+report.approvalRating.very_high_rising = ¡Tus índices de aprobación son muy altos y han aumentado durante los últimos dos meses!
+report.approvalRating.very_high_falling = ¡Tus índices de aprobación han caído durante los últimos dos meses, pero siguen siendo muy altos!
+report.approvalRating.high = ¡Tus índices de aprobación son altos!
+report.approvalRating.high_rising = Tus índices de aprobación son altos y han aumentado durante los últimos dos meses.
+report.approvalRating.high_falling = Tus índices de aprobación han caído durante los últimos dos meses, pero siguen siendo altos.
+report.approvalRating.above50 = Tus índices de aprobación están ligeramente por encima del 50%.
+report.approvalRating.above50_rising = Tus índices de aprobación han aumentado durante los últimos dos meses y están ligeramente por encima del 50%.
+report.approvalRating.above50_falling = Tus índices de aprobación han caído durante los últimos dos meses, pero todavía están ligeramente por encima del 50%.
+report.approvalRating.below50_elections_far = Tus índices de aprobación están ligeramente por debajo del 50%.
+report.approvalRating.below50_rising_elections_far = Tus índices de aprobación han aumentado durante los últimos dos meses, pero todavía están ligeramente por debajo del 50%.
+report.approvalRating.below50_falling_elections_far = Tus índices de aprobación han caído durante los últimos dos meses y están ligeramente por debajo del 50%.
+report.approvalRating.below50_elections_close = ¡Tus índices de aprobación están ligeramente por debajo del 50% y las elecciones están a la vuelta de la esquina!
+report.approvalRating.below50_rising_elections_close = Tus índices de aprobación han aumentado durante los últimos dos meses, pero todavía están ligeramente por debajo del 50%. Las elecciones están a la vuelta de la esquina.
+report.approvalRating.below50_falling_elections_close = Tus índices de aprobación han caído durante los últimos dos meses y están ligeramente por debajo del 50%. Las elecciones están a la vuelta de la esquina.
+report.approvalRating.low_elections_far = Tus índices de aprobación están bastante bajos. Afortunadamente las elecciones están lejos, así que hay tiempo para ganar votantes.
+report.approvalRating.low_rising_elections_far = Tus índices de aprobación son bastante bajos, pero han aumentado en los últimos dos meses. Las elecciones están lejos, así que hay tiempo para ganar votantes.
+report.approvalRating.low_falling_elections_far = Tus índices de aprobación son bastante bajos y han caído en los últimos dos meses. Afortunadamente las elecciones están lejos, así que hay tiempo para introducir mejoras.
+report.approvalRating.low_elections_close = Tus índices de aprobación son bajos. Las elecciones están a la vuelta de la esquina. La mayoría de los analistas políticos están convencidos de que tu partido perderá las próximas elecciones.
+report.approvalRating.low_rising_elections_close = Tus índices de aprobación son bajos, pero han aumentado en los últimos dos meses. Las elecciones están a la vuelta de la esquina y según muchos analistas políticos, tu partido está en condiciones de ganar las próximas elecciones.
+report.approvalRating.low_falling_elections_close = Tus índices de aprobación son bajos y han caído en los últimos dos meses. Las elecciones están a la vuelta de la esquina y la mayoría de los analistas políticos están convencidos de que tu partido perderá las próximas elecciones.
+report.approvalRating.very_low = Tus índices de aprobación son muy bajos. Los analistas políticos especulan sobre los posibles resultados de las próximas elecciones. Muchos creen, que tu partido perderá.
+report.approvalRating.very_low_rising = Tus índices de aprobación han aumentado durante los últimos dos meses, pero aún son muy bajos. Los analistas políticos especulan sobre los posibles resultados de las próximas elecciones. Algunos están convencidos de que tu partido va a perder.
+report.approvalRating.very_low_falling = Tus índices de aprobación son muy bajas y han caído en los últimos dos meses. Los analistas políticos están divididos sobre los posibles resultados de las próximas elecciones. Muchos están convencidos de que tu partido todavía pueden ganar.
+
+# Elections:
+report.elections.six_months = Elecciones en medio año.
+report.elections.four_months = Elecciones en cuatro meses.
+report.elections.two_months = Elecciones en dos meses.
+
+# Events:
+report.crisis.hospital_bankruptcy = Algunos hospitales han indicado que tienen importantes problemas financieros. Las quiebras son muy probables. Los responsables sanitarios han solicitado al Gobierno que incremente la inversión en el sector público.
+report.crisis.shortage_of_medical_staff = Algunos hospitales sufren escasez de personal médico. Además, el funcionamiento de sus instalaciones es inadecuado y están empezando a considerar la opción de desviar pacientes a otros hospitales. Los responsables sanitarios han solicitado al Gobierno que incremente la inversión en el sector público.
+report.crisis.fuel_shortage_in_police = Responsables policiales de todo el país han informado de problemas con el suministro de combustible por falta de fondos. En algunas regiones, los policías tienen que pagar la gasolina de los coches patrulla de su propio bolsillo.
+report.demonstrations.public_sector.ave_wage_low = Los empleados públicos se están manifestando en contra de los bajos salarios en el sector público.
+report.demonstrations.unemployed.ave_benefit_low = Los desempleados se están manifestando en contra de las bajas prestaciones por desempleo.
+report.demonstrations.retired.ave_benefit_low = Los jubilados se están manifestando en contra de las bajas prestaciones por jubilación.
+report.demonstrations.private_sector.ave_wage_low = Los empleados del sector privado se están manifestando. Ellos no están contentos con sus salarios y quieren que el gobierno haga algo.
+report.demonstrations.all.inflation_high = Manifestaciones masivas de personas de diversos grupos sociales protestan contra la alta tasa de inflación.
+report.demonstrations.all.unemployment_high = Gente de todos los grupos sociales se manifiestan en contra de la elevada tasa de desempleo.
+report.demonstrations.all.public_sector_effectiveness_low = Se están produciendo manifestaciones que reúnen miles de personas de diversos grupos sociales que protestan contra el mal estado de los servicios del sector público.
+report.demonstrations.all.income_tax_rate_high = Gente de todos los grupos sociales se está manifestando en contra de la alta tasa de IRPF.
+report.demonstrations.all.vat_rate_high = Gente de todos los grupos sociales se está manifestando en contra de alta tasa de IVA.
+
+
+#******************************************
+#************** NARRATIVES ****************
+#******************************************
+narrative.party_warning_1 = Un amigo cercano de tu partido se te ha acercado hoy, a medida que ibas caminando a tu oficina. \
+                            Él te ha dicho que muchos miembros del partido están muy descontentos con la forma en que gobiernas el país. \
+                            Están especialmente disgustados con los índices de aprobación tan bajos de tus Ministros. Tu amigo te ha advertido, \ que si no hacemos algo para mejorar la popularidad del Gobierno, podría originarse \ una gran presión sobre ti para que renuncies.
+
+narrative.party_warning_2 = Un grupo de importantes miembros del partido han organizado una reunión y no te han invitado a participar. \
+                            Uno de tus colaboradores más cercanos te ha informado de que la cuestión clave discutida durante esa reunión fue el \
+                            cambio de Primer Ministro. El ambiente en tu partido se está turbio. \
+                            Si no haces algo rápidamente para mejorar los índices de aprobación de tu gabinete, \
+                            perderás tu puesto y perderás el juego.
+
+narrative.party_warning_3 = Tus más cercanos colaboradores han anunciado que no quieren continuar trabajando contigo. \
+                            Muchos miembros del partido están criticando abiertamente tus formas. \
+                            Algunos incluso han pedido públicamente tu renuncia. \
+                            Es cuestión de unas pocas semanas el que seas destituido de tu cargo.

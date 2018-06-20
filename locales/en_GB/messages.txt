@@ -1,0 +1,145 @@
+#******************************************
+#************ REPORT MESSAGES *************
+#******************************************
+
+# Economy - general:
+report.economy-general.domestic_very_good = The overall condition of our economy is very good.
+report.economy-general.domestic_good = The overall condition of our economy is pretty good.
+report.economy-general.domestic_average = The overall condition of our economy is satisfactory, although the growth is rather slow.
+report.economy-general.domestic_poor = Our economy is stagnating.
+report.economy-general.domestic_very_poor = Our economy is in crisis.
+
+report.economy-general.global_economy_condition_very_good = The global economy is booming.
+report.economy-general.global_economy_condition_good = The global economy is in a good condition.
+report.economy-general.global_economy_condition_poor = The global economy is in a rather poor condition.
+report.economy-general.global_economy_condition_very_poor = The global economy is in stagnation.
+report.economy-general.global_economy_growing = The global economy is growing. Economic experts predict, that the value of exports will be rising in the coming months.
+report.economy-general.global_economy_shrinking = The growth of global economy is slowing down. Economic experts predict, that exports will fall in the next few months.
+
+report.economy-general.budget_deficit_high = Budget deficit is high, but remains at a constant level.
+report.economy-general.budget_deficit_high_rising = Budget deficit is high and rising.
+report.economy-general.budget_deficit_high_falling = Budget deficit is high, but falling.
+report.economy-general.budget_deficit_low = Budget deficit is low and remains constant.
+report.economy-general.budget_deficit_low_rising = Budget deficit is low, but rising.
+report.economy-general.budget_deficit_low_falling = Budget deficit is low and falling.
+report.economy-general.budget_surplus_low = There is a small surplus in the budget.
+report.economy-general.budget_surplus_low_rising = The budget surplus is modest, but is rising.
+report.economy-general.budget_surplus_low_falling = The budget surplus is small and falling.
+report.economy-general.budget_surplus_high = The budget has a high surplus.
+report.economy-general.budget_surplus_high_rising = The budget has a high and rising surplus. 
+report.economy-general.budget_surplus_high_falling = The budget surplus is rather high, but is falling.
+
+report.economy-general.natl_debt_threshold_close_deficit_high = The value of national debt is close to the threshold level of 50% of GDP. With a high budget deficit the threshold will be reached soon. This will have significant consequences.
+report.economy-general.natl_debt_threshold_close_deficit_low = The value of national debt is close to the threshold level of 50% of GDP. Although the budget deficit is quite low the threshold can be reached soon. This will have significant consequences.
+report.economy-general.natl_debt_threshold_exceeded = The value of national debt has exceeded the threshold level of 50% of GDP. The planned budget deficit must be reduced to zero.
+
+
+# Economy - details:
+report.economy-details.unemployment_benefits_1 = Higher unemployment benefits can cause a rise in consumption and thus stimulate the economy. On the other hand, high value of unemployment benefits can make unemployed people lazy and prevent them from getting a job.
+report.economy-details.unemployment_benefits_2 = Lower unemployment benefits can cause a fall in consumption and thus hinder the growth of the economy. On the other hand, low value of unemployment benefits can force the unemployed people to look for jobs.
+
+report.economy-details.unemployment_benefits_consumption_1 = An increase of unemployment benefits caused a rise of consumption, as the unemployed people have more money to spend.
+report.economy-details.unemployment_benefits_consumption_2 = A reduction of unemployment benefits caused a fall of consumption, as the unemployed people have less money to spend.
+
+report.economy-details.retirement_benefits_consumption_1 = Higher retirement benefits lead to higher consumption, as the retired people have more money to spend.
+report.economy-details.retirement_benefits_consumption_2 = Lower retirement benefits lead to lower consumption, as the retired people have less money to spend.
+
+report.economy-details.vat_inflation_1 = The higher VAT rate caused a sudden rise of prices and thus, higher inflation rate. This effect should be temporary.
+report.economy-details.vat_inflation_2 = The lower VAT rate caused a decrease of prices and thus, lower inflation rate. The fall of inflation is temporary.
+
+report.economy-details.vat_inflation_output_1 = The higher VAT rate makes companies transfer a larger part of their revenues to the state. In order to compensate for the lost income, the companies increased prices. This caused higher inflation rate and lower output.
+report.economy-details.vat_inflation_output_2 = The lower VAT rate makes companies transfer a smaller part of their revenues to the state. Some companies decided to reduce prices in order to sell more. This caused a fall in inflation rate and higher output.
+
+report.economy-details.vat_output_1 = Because of the higher VAT rate, companies transfer a larger part of their revenues to the state and hence may decide to produce less. This causes a fall in output.
+report.economy-details.vat_output_2 = The lower rate of VAT makes companies earn more, as they give a smaller part of their revenues to the state. This causes a rise in output.
+
+report.economy-details.income_tax_consumption_1 = The higher income tax rate caused a reduction of consumption as people and companies have less money to spend.
+report.economy-details.income_tax_consumption_2 = The lower income tax rate caused an increase of consumption as people and companies have more money to spend.
+
+report.economy-details.consumption_output_1 = Rising consumption is causing a rise in output.
+report.economy-details.consumption_output_2 = Falling consumption is causing a fall in output.
+
+report.economy-details.exports_output_1 = Rising exports is causing a rise in output.
+report.economy-details.exports_output_2 = Falling exports is causing a fall in output.
+
+report.economy-details.investment_output_1 = The rising value of investments causes a rise in output.
+report.economy-details.investment_output_2 = Falling investments cause a fall in output.
+
+report.economy-details.output_unemployment_1 = With the output rising, companies employ more people and so the unemployment rate falls.
+report.economy-details.output_unemployment_2 = With the output falling, companies lay off personnel so the unemployment rate rises.
+
+report.economy-details.unemployment_wages_1 = When there are less people looking for jobs it is harder for employers to find employees, so those who are employed become more valuable and can ask for higher wages.
+report.economy-details.unemployment_wages_2 = When the number of people looking for jobs rises, the employers may try to reduce wages as the risk of losing a large number of employees is relatively small. Employees will be reluctant to quit their jobs as they know that finding a new job will be difficult, so they will accept lower wages.
+
+report.economy-details.wages_inflation_1 = Rising wages are causing a higher inflation rate as the costs of production increase and thus the prices of products and services increase as well.
+report.economy-details.wages_inflation_2 = Falling wages may reduce the inflation rate, as lower wages mean lower production costs and this can cause a decrease in prices.
+
+report.economy-details.inflation_investment_1 = The rising inflation rate makes investors more careful and so they invest less.
+report.economy-details.inflation_investment_2 = The inflation rate is falling. Investors perceive this as a good sign and start to invest more.
+
+
+# Approval ratings:
+report.approvalRating.very_high = The approval ratings are very high!
+report.approvalRating.very_high_rising = The approval ratings are very high and they have risen during the last two months!
+report.approvalRating.very_high_falling = The approval ratings have fallen during the last two months, but are still very high!
+report.approvalRating.high = The approval ratings are high!
+report.approvalRating.high_rising = The approval ratings are high and have risen during the last two months.
+report.approvalRating.high_falling = The approval ratings have fallen during the last two months, but are still high.
+report.approvalRating.above50 = The approval ratings are slightly above 50%.
+report.approvalRating.above50_rising = The approval ratings have risen during the last two months and are slighty above 50%.
+report.approvalRating.above50_falling = The approval ratings have fallen during the last two months, but are still slightly above 50%.
+report.approvalRating.below50_elections_far = The approval ratings are slightly below 50%.
+report.approvalRating.below50_rising_elections_far = The approval ratings have risen during the last two months, but are still slightly below 50%.
+report.approvalRating.below50_falling_elections_far = The approval ratings have fallen during the last two months and are slightly below 50%.
+report.approvalRating.below50_elections_close = The approval ratings are slightly below 50% and elections are just around the corner!
+report.approvalRating.below50_rising_elections_close = The approval ratings have risen during the last two months, but are still slightly below 50%. Elections are just around the corner.
+report.approvalRating.below50_falling_elections_close = The approval ratings have fallen during the last two months and are slightly below 50%. Elections are just around the corner.
+report.approvalRating.low_elections_far = The approval ratings are rather low. Fortunately the elections are far away, so there is time for gaining voters.
+report.approvalRating.low_rising_elections_far = The approval ratings are rather low, but have risen during the last two months. The elections are far away, so there is time for gaining voters.
+report.approvalRating.low_falling_elections_far = The approval ratings are rather low and have fallen during the last two months. Fortunately the elections are far away, so there is time for improvements.
+report.approvalRating.low_elections_close = The approval ratings are low. elections are just around the corner. Most political analysts are convinced, that the ruling party will lose upcoming elections.
+report.approvalRating.low_rising_elections_close = The approval ratings are low, but have risen during the last two months. Elections are just around the corner. According to many political analysts, the ruling party has a good chance of winning the upcoming elections. 
+report.approvalRating.low_falling_elections_close = The approval ratings are low and have fallen during the last two months. Elections are just around the corner. Most political analysts are convinced, that the ruling party will lose upcoming elections.
+report.approvalRating.very_low = The approval ratings are very low. Political analysts are speculating about possible results of nearest elections. Many believe, that the ruling party will lose.
+report.approvalRating.very_low_rising = The approval ratings have risen during the last two months, but are still very low. Political analysts are speculating about possible results of nearest elections. Some are convinced, that the ruling party will lose.
+report.approvalRating.very_low_falling = The approval ratings are very low and have fallen during the last two months. Political analysts are divided on possible outcome of nearest elections. Many are convinced that the ruling party might still win.
+
+# Elections:
+report.elections.six_months = Elections in half a year time.
+report.elections.four_months = Elections in four months from now.
+report.elections.two_months = Elections in two months from now.
+
+# Events:
+report.crisis.hospital_bankruptcy = Some hospitals report having significant financial problems. Bankruptcies are very likely. Healthcare experts are appealing to the government to increase public sector funding.
+report.crisis.shortage_of_medical_staff = Some hospitals suffer from shortages of medical staff. Further operation of these facilities is uncertain and evacuation of patients is very likely. Healthcare experts are appealing to the government to increase public sector funding.
+report.crisis.fuel_shortage_in_police = Chiefs of police from all over the country are reporting problems with fuel supply due to insufficient funds. In some regions policemen have to pay for petrol for their squad cars from their own pockets.
+report.demonstrations.public_sector.ave_wage_low = Public sector employees are demonstrating against, what they feel, are low wages in the public sector.
+report.demonstrations.unemployed.ave_benefit_low = Unemployed people are demonstrating against, what they feel, are low unemployment benefits.
+report.demonstrations.retired.ave_benefit_low = Retired people are demonstrating against, what they feel, are low retirement benefits.
+report.demonstrations.private_sector.ave_wage_low = Private sector employees are organizing demonstrations. They are unhappy with their wages and want the government to "do something about it".
+report.demonstrations.all.inflation_high = Massive demonstrations of people from various social groups protesting against high inflation.
+report.demonstrations.all.unemployment_high = People from all social groups are demonstrating against the high rate unemployment.
+report.demonstrations.all.public_sector_effectiveness_low = Large demonstrations gathering thousands of people from various social groups protesting against the poor condition of public sector services.
+report.demonstrations.all.income_tax_rate_high = People from all social groups are demonstrating against high income tax rate.
+report.demonstrations.all.vat_rate_high = People from all social groups are demonstrating against high VAT rate.
+
+
+#******************************************
+#************** NARRATIVES ****************
+#******************************************
+narrative.party_warning_1 = A close friend from your party has approached you today, as you were walking to your office. \
+                            He informed you that many party members are very unhappy with the way you run the country. \
+                            They are especially displeased with very low approval ratings of your cabinet. Your friend has warned you, \
+                            that if you don't do something to improve the popularity of the government, there might be pressure \
+                            on you to step down.
+
+narrative.party_warning_2 = A group of prominent party members have organized a meeting and did not invite you to participate. \
+                            One of your close associates informed you, that the key issue discussed during this meeting was the \
+                            change of the prime minister. The atmosphere in your party is getting dense. \
+                            If you do not do something quickly to improve the approval ratings of your cabinet, \
+                            you will lose your office and lose the game.
+
+narrative.party_warning_3 = Your closest associates announced, that they do not want to cooperate with you any more. \
+                            Many party members are openly criticizing your rule. \
+                            Some have even publicly called you to step down. \
+                            It is a matter of just a few weeks before you will be removed from office.

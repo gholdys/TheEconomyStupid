@@ -1,0 +1,99 @@
+#########################
+##### Data Patterns #####
+#########################
+Pattern: Policy
+    value: Double
+    costs: Double
+    revenues: Double
+End
+
+Pattern: SocialGroup
+    numPeople: Double
+    populationPart: Double
+    approvalRating: Double
+    averageGrossIncome: Double
+    realAverageGrossIncome: Double
+End
+
+
+##############
+#### Game ####
+##############    
+game.time: Date
+game.turn: Integer
+game.events: String[]
+game.numTurnsPerTerm: Integer
+game.numMonthsPerTurn: Integer
+game.numTurnsToNextElections: Integer
+game.electionsResult: Double
+game.electionsMaxError: Double
+game.maxNationalDebtToGDP: Double
+
+
+#################
+### Economics ###
+#################
+economics.gdp: Double
+economics.gdpGrowthRate: Double
+economics.realOutput: Double
+economics.realConsumption: Double
+economics.realInvestment: Double
+economics.realExports: Double
+economics.realImports: Double
+economics.realGovernmentSpending: Double    
+economics.realTaxRevenues: Double
+economics.output: Double
+economics.exports: Double
+economics.imports: Double
+economics.consumption: Double
+economics.investment: Double
+economics.governmentSpending: Double
+economics.taxRevenues: Double
+economics.workforce: Double
+economics.labourProductivity: Double
+economics.priceLevel: Double
+economics.unemploymentRate: Double
+economics.inflationRate: Double
+economics.inflationPressure: Double
+economics.budgetDeficit: Double
+economics.nationalDebt: Double
+economics.nationalDebtToGdp: Double
+economics.globalEconomyCondition: Double
+
+
+#####################
+### Public Sector ###
+#####################
+publicSector.effectiveness: Double
+publicSector.optimumEmploymentToPopulation: Double
+publicSector.optimumFundingToGDP: Double
+
+
+#####################
+###### Society ######
+#####################
+society.approvalRating: Double
+society.totalPopulation: Double
+society.maturityAge: Integer
+society.maximumAge: Integer
+society.moods: String[]
+
+
+#####################
+### Social Groups ###
+#####################
+socialGroups.privateSectorEmployees: SocialGroup
+socialGroups.publicSectorEmployees: SocialGroup
+socialGroups.retired: SocialGroup
+socialGroups.unemployed: SocialGroup
+
+
+##################
+#### Policies ####
+##################
+policies.vat: Policy
+policies.incomeTax: Policy
+policies.unemploymentBenefits: Policy
+policies.retirementBenefits: Policy
+policies.publicSectorFunding: Policy
+policies.retirementAge: Policy

@@ -1,0 +1,56 @@
+economics.gdp = PIB
+economics.gdpGrowthRate = Tasa de crecimiento del PIB
+economics.output = Producción
+economics.consumption = Consumo
+economics.investment =  Inversión
+economics.exports = Exportaciones
+economics.imports = Importaciones
+economics.governmentSpending = Gasto público
+economics.taxRevenues = Ingresos fiscales
+economics.unemploymentRate = Tasa de desempleo
+economics.inflationRate = Tasa de inflación
+economics.interestRate = Tasa de interés
+economics.nationalDebtToGdp = Endeudamiento respecto al PIB
+economics.nationalDebt = Endeudamiento
+economics.budgetDeficit = Déficit presupuestario
+economics.workforce = Población activa
+
+society.totalPopulation = Población
+society.approvalRating = Índice de aprobación
+
+policies.vat.revenues = Ingresos por IVA
+policies.incomeTax.revenues = Ingresos por IRPF
+policies.unemploymentBenefits.costs = Coste de las prestaciones por desempleo
+policies.retirementBenefits.costs = Coste de las prestaciones por jubilación
+policies.publicSectorFunding.costs = Coste de financiación del Sector Público
+
+policies.vat = IVA
+policies.incomeTax = IRPF
+policies.unemploymentBenefits = Prestaciones por desempleo
+policies.retirementBenefits = Prestaciones por jubilación
+policies.publicSectorFunding = Financiación del Sector Público
+policies.retirementAge = Edad de jubilación
+
+socialGroups.privateSectorEmployees = Empleados del sector privado
+socialGroups.privateSectorEmployees.numPeople = Número de empleados del sector privado
+socialGroups.privateSectorEmployees.populationPart = Porcentaje de empleados del sector privado dentro del total de la población
+socialGroups.privateSectorEmployees.averageGrossIncome = Media de ingresos brutos de los empleados del sector privado
+socialGroups.privateSectorEmployees.approvalRating = Porcentaje de aprobación entre los empleados del sector privado
+
+socialGroups.publicSectorEmployees = Empleados del Sector Público
+socialGroups.publicSectorEmployees.numPeople = Número de empleados del Sector Público
+socialGroups.publicSectorEmployees.populationPart = Porcentaje de empleados del Sector Público dentro del total de la población
+socialGroups.publicSectorEmployees.averageGrossIncome = Media de ingresos brutos de los empleados del Sector Público
+socialGroups.publicSectorEmployees.approvalRating = Porcentaje de aprobación entre los empleados del Sector Público
+
+socialGroups.retired = Jubilados
+socialGroups.retired.numPeople = Número de jubilados
+socialGroups.retired.populationPart = Porcentaje de jubilados dentro del total de la población
+socialGroups.retired.averageGrossIncome = Media de ingresos brutos de los jubilados
+socialGroups.retired.approvalRating = Porcentaje de aprobación entre los jubilados
+
+socialGroups.unemployed = Personas desempleadas
+socialGroups.unemployed.numPeople = Número de personas desempleadas
+socialGroups.unemployed.populationPart = Porcentaje de personas desempleadas dentro del total de la población
+socialGroups.unemployed.averageGrossIncome = Media de ingresos brutos de las personas desempleadas
+socialGroups.unemployed.approvalRating = Porcentaje de aprobación entre las personas desempleadas

@@ -1,0 +1,18 @@
+inflation_rate_high = Alto nivel de inflación
+inflation_rate_low = Bajo nivel de inflación
+
+unemployment_rate_high = Alto nivel de desempleo
+unemployment_rate_low = Bajo nivel de desempleo
+
+public_sector_effectiveness_high = Alta efectividad del sector público
+public_sector_effectiveness_low = Baja efectividad del sector público
+
+income_tax_rate_high = Tasa alta de IRPF
+income_tax_rate_low = Tasa baja de IRPF
+
+vat_rate_high = Tasa alta de IVA
+vat_rate_low = Tasa baja de IVA
+
+income_high = Ingresos altos
+income_low = Ingresos bajos
+

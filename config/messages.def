@@ -1,0 +1,530 @@
+#*********************************
+#*****   Economy - general   *****
+#*********************************
+// Global economy
+Message: report.economy-general.global_economy_condition_very_good [69]
+    economics.globalEconomyCondition: value_ge 0.8
+    economics.globalEconomyCondition: absolute_delta_eq 0.0
+End
+
+Message: report.economy-general.global_economy_condition_good [69]
+    economics.globalEconomyCondition: value_lt 0.8
+    economics.globalEconomyCondition: value_ge 0.5
+    economics.globalEconomyCondition: absolute_delta_eq 0.0
+End
+
+Message: report.economy-general.global_economy_condition_poor [69]
+    economics.globalEconomyCondition: value_lt 0.5
+    economics.globalEconomyCondition: value_ge 0.2
+    economics.globalEconomyCondition: absolute_delta_eq 0.0
+End
+
+Message: report.economy-general.global_economy_condition_very_poor [69]
+    economics.globalEconomyCondition: value_lt 0.2
+    economics.globalEconomyCondition: absolute_delta_eq 0.0
+End
+
+Message: report.economy-general.global_economy_growing [68]
+    economics.globalEconomyCondition: absolute_delta_gt 0.0
+End
+
+Message: report.economy-general.global_economy_shrinking [68]
+    economics.globalEconomyCondition: absolute_delta_lt 0.0
+End
+
+// Domestic economy
+Message: report.economy-general.domestic_very_good [67]
+    economics.gdpGrowthRate: value_ge 0.06
+End
+
+Message: report.economy-general.domestic_good [67]
+    economics.gdpGrowthRate: value_lt 0.06
+    economics.gdpGrowthRate: value_ge 0.04
+End
+
+Message: report.economy-general.domestic_average [67]
+    economics.gdpGrowthRate: value_lt 0.04
+    economics.gdpGrowthRate: value_ge 0.02
+End
+
+Message: report.economy-general.domestic_poor [67]
+    economics.gdpGrowthRate: value_lt 0.02
+    economics.gdpGrowthRate: value_ge 0.0
+End
+
+Message: report.economy-general.domestic_very_poor [67]
+    economics.gdpGrowthRate: value_lt 0.0
+End
+
+// Budget deficit/surplus
+Message: report.economy-general.budget_deficit_high [66]
+    economics.budgetDeficit: value_ge 0.7
+    economics.budgetDeficit: relative_delta_gt -0.005
+    economics.budgetDeficit: relative_delta_lt 0.005
+End
+
+Message: report.economy-general.budget_deficit_high_rising [66]
+    economics.budgetDeficit: value_ge 0.7
+    economics.budgetDeficit: relative_delta_ge 0.005
+End
+
+Message: report.economy-general.budget_deficit_high_falling [66]
+    economics.budgetDeficit: value_ge 0.7
+    economics.budgetDeficit: relative_delta_le -0.005
+End
+
+Message: report.economy-general.budget_deficit_low [66]
+    economics.budgetDeficit: value_lt 0.7
+    economics.budgetDeficit: value_ge 0.0
+    economics.budgetDeficit: relative_delta_gt -0.005
+    economics.budgetDeficit: relative_delta_lt 0.005
+End
+
+Message: report.economy-general.budget_deficit_low_rising [66]
+    economics.budgetDeficit: value_lt 0.7
+    economics.budgetDeficit: value_ge 0.0
+    economics.budgetDeficit: relative_delta_ge 0.005
+End
+
+Message: report.economy-general.budget_deficit_low_falling [66]
+    economics.budgetDeficit: value_lt 0.7
+    economics.budgetDeficit: value_ge 0.0
+    economics.budgetDeficit: relative_delta_le -0.005
+End
+
+Message: report.economy-general.budget_surplus_low [66]
+    economics.budgetDeficit: value_lt 0.0
+    economics.budgetDeficit: value_ge -0.7
+    economics.budgetDeficit: relative_delta_gt -0.005
+    economics.budgetDeficit: relative_delta_lt 0.005    
+End
+
+Message: report.economy-general.budget_surplus_low_rising [66]
+    economics.budgetDeficit: value_lt 0.0
+    economics.budgetDeficit: value_ge -0.7
+    economics.budgetDeficit: relative_delta_ge 0.005
+End
+
+Message: report.economy-general.budget_surplus_low_falling [66]
+    economics.budgetDeficit: value_lt 0.0
+    economics.budgetDeficit: value_ge -0.7
+    economics.budgetDeficit: relative_delta_le -0.005
+End
+
+Message: report.economy-general.budget_surplus_high [66]
+    economics.budgetDeficit: value_lt -0.7
+    economics.budgetDeficit: relative_delta_gt -0.005
+    economics.budgetDeficit: relative_delta_lt 0.005    
+End
+
+Message: report.economy-general.budget_surplus_high_rising [66]
+    economics.budgetDeficit: value_lt -0.7
+    economics.budgetDeficit: relative_delta_ge 0.005
+End
+
+Message: report.economy-general.budget_surplus_high_falling [66]
+    economics.budgetDeficit: value_lt -0.7
+    economics.budgetDeficit: relative_delta_le -0.005    
+End
+
+// Natl. Debt to GDP ratio
+Message: report.economy-general.natl_debt_threshold_close_deficit_high [65]
+    economics.nationalDebtToGdp: value_gt 0.45
+    economics.nationalDebtToGdp: value_lt 0.5
+    economics.budgetDeficit: value_ge 0.7
+End
+
+Message: report.economy-general.natl_debt_threshold_close_deficit_low [65]
+    economics.nationalDebtToGdp: value_gt 0.45
+    economics.nationalDebtToGdp: value_lt 0.5
+    economics.budgetDeficit: value_lt 0.7
+End
+
+Message: report.economy-general.natl_debt_threshold_exceeded [65]
+    economics.nationalDebtToGdp: value_ge 0.5
+End
+
+
+#*********************************
+#*****   Economy - details   *****
+#*********************************
+Message: report.economy-details.unemployment_benefits_1 [59]
+    policies.unemploymentBenefits.value: absolute_delta_gt 0.0
+End
+
+Message: report.economy-details.unemployment_benefits_2 [59]
+    policies.unemploymentBenefits.value: absolute_delta_lt 0.0
+End
+
+Message: report.economy-details.unemployment_benefits_consumption_1 [59]
+    policies.unemploymentBenefits.value: absolute_delta_gt 0.0
+    economics.consumption: relative_delta_gt 0.005
+End
+
+Message: report.economy-details.unemployment_benefits_consumption_2 [59]
+    policies.unemploymentBenefits.value: absolute_delta_lt 0.0
+    economics.consumption: relative_delta_lt -0.005
+End
+
+Message: report.economy-details.retirement_benefits_consumption_1 [59]
+    policies.retirementBenefits.value: absolute_delta_gt 0.0
+    economics.consumption: relative_delta_gt 0.005
+End
+
+Message: report.economy-details.retirement_benefits_consumption_2 [59]
+    policies.retirementBenefits.value: absolute_delta_lt 0.0
+    economics.consumption: relative_delta_lt -0.005
+End
+
+Message: report.economy-details.vat_inflation_1 [56]
+    policies.vat.value: absolute_delta_gt 0.0
+    economics.inflationRate: absolute_delta_gt 0.001
+End
+
+Message: report.economy-details.vat_inflation_2 [56]
+    policies.vat.value: absolute_delta_lt 0.0
+    economics.inflationRate: absolute_delta_lt -0.001
+End
+
+Message: report.economy-details.vat_inflation_output_1 [56]
+    policies.vat.value: absolute_delta_gt 0.0
+    economics.output: relative_delta_lt -0.001
+    economics.inflationRate: absolute_delta_gt 0.001
+End
+
+Message: report.economy-details.vat_inflation_output_2 [56]
+    policies.vat.value: absolute_delta_lt 0.0
+    economics.output: relative_delta_gt 0.001
+    economics.inflationRate: absolute_delta_lt -0.001
+End
+
+Message: report.economy-details.vat_output_1 [56]
+    policies.vat.value: absolute_delta_gt 0.0
+    economics.output: relative_delta_lt -0.001
+End
+
+Message: report.economy-details.vat_output_2 [56]
+    policies.vat.value: absolute_delta_lt 0.0
+    economics.output: relative_delta_gt 0.001
+End
+
+Message: report.economy-details.income_tax_consumption_1 [55]
+    policies.incomeTax.value: absolute_delta_gt 0.0
+    economics.consumption: relative_delta_lt -0.001
+End
+
+Message: report.economy-details.income_tax_consumption_2 [55]
+    policies.incomeTax.value: absolute_delta_lt 0.0
+    economics.consumption: relative_delta_gt 0.001
+End
+
+Message: report.economy-details.consumption_output_1 [54]
+    economics.consumption: relative_delta_gt 0.001
+    economics.output: absolute_delta_gt 0.0
+End
+
+Message: report.economy-details.consumption_output_2 [54]
+    economics.consumption: relative_delta_lt -0.001
+    economics.output: absolute_delta_lt 0.0
+End
+
+Message: report.economy-details.exports_output_1 [54]
+    economics.exports: relative_delta_gt 0.001
+    economics.output: absolute_delta_gt 0.0
+End
+
+Message: report.economy-details.exports_output_2 [54]
+    economics.exports: relative_delta_lt -0.001
+    economics.output: absolute_delta_lt 0.0
+End
+
+Message: report.economy-details.investment_output_1 [54]
+    economics.investment: relative_delta_gt 0.001
+    economics.output: absolute_delta_gt 0.0
+End
+
+Message: report.economy-details.investment_output_2 [54]
+    economics.investment: relative_delta_lt -0.001
+    economics.output: absolute_delta_lt 0.0
+End
+
+Message: report.economy-details.output_unemployment_1 [53]
+    economics.output: absolute_delta_gt 0.0
+    economics.unemploymentRate: absolute_delta_lt 0.0
+End
+
+Message: report.economy-details.output_unemployment_2 [53]
+    economics.output: absolute_delta_lt 0.0
+    economics.unemploymentRate: absolute_delta_gt 0.0
+End
+
+Message: report.economy-details.unemployment_wages_1 [52]
+    economics.unemploymentRate: absolute_delta_lt -0.0005
+    socialGroups.privateSectorEmployees.averageGrossIncome: relative_delta_gt 0.001   
+End
+
+Message: report.economy-details.unemployment_wages_2 [52]
+    economics.unemploymentRate: absolute_delta_gt 0.0005
+    socialGroups.privateSectorEmployees.averageGrossIncome: relative_delta_lt -0.001   
+End
+
+Message: report.economy-details.wages_inflation_1 [51]
+    socialGroups.privateSectorEmployees.averageGrossIncome: relative_delta_gt 0.001
+    economics.inflationRate: absolute_delta_gt 0.0005
+End
+
+Message: report.economy-details.wages_inflation_2 [51]
+    socialGroups.privateSectorEmployees.averageGrossIncome: relative_delta_lt -0.001
+    economics.inflationRate: absolute_delta_lt -0.0005
+End
+
+Message: report.economy-details.inflation_investment_1 [50]
+    economics.inflationRate: absolute_delta_gt 0.001
+    economics.investment: absolute_delta_lt 0.0
+End
+
+Message: report.economy-details.inflation_investment_2 [50]
+    economics.inflationRate: absolute_delta_lt -0.001
+    economics.investment: absolute_delta_gt 0.0
+End
+
+
+
+
+#*******************************
+#****    Approval Rating    ****
+#*******************************
+Message: report.approvalRating.very_high [39]
+    society.approvalRating: value_gt 0.8
+    society.approvalRating: absolute_delta_eq 0.0
+End
+
+Message: report.approvalRating.very_high_rising [39]
+    society.approvalRating: value_gt 0.8
+    society.approvalRating: absolute_delta_gt 0.0
+End
+
+Message: report.approvalRating.very_high_falling [39]
+    society.approvalRating: value_gt 0.8
+    society.approvalRating: absolute_delta_lt 0.0
+End
+
+Message: report.approvalRating.high [39]
+    society.approvalRating: value_gt 0.55
+    society.approvalRating: value_le 0.8
+    society.approvalRating: absolute_delta_eq 0.0
+End
+
+Message: report.approvalRating.high_rising [39]
+    society.approvalRating: value_gt 0.55
+    society.approvalRating: value_le 0.8    
+    society.approvalRating: absolute_delta_gt 0.0
+End
+
+Message: report.approvalRating.high_falling [39]
+    society.approvalRating: value_gt 0.55
+    society.approvalRating: value_le 0.8
+    society.approvalRating: absolute_delta_lt 0.0
+End
+
+Message: report.approvalRating.above50 [39]
+    society.approvalRating: value_gt 0.50
+    society.approvalRating: value_le 0.55
+    society.approvalRating: absolute_delta_eq 0.0
+End
+
+Message: report.approvalRating.above50_rising [39]
+    society.approvalRating: value_gt 0.50
+    society.approvalRating: value_le 0.55
+    society.approvalRating: absolute_delta_gt 0.0
+End
+
+Message: report.approvalRating.above50_falling [39]
+    society.approvalRating: value_gt 0.50
+    society.approvalRating: value_le 0.55
+    society.approvalRating: absolute_delta_lt 0.0
+End
+
+Message: report.approvalRating.below50_elections_far [39]
+    society.approvalRating: value_gt 0.45
+    society.approvalRating: value_lt 0.50
+    society.approvalRating: absolute_delta_eq 0.0
+    game.numTurnsToNextElections: value_ge 6
+End
+
+Message: report.approvalRating.below50_rising_elections_far [39]
+    society.approvalRating: value_gt 0.45
+    society.approvalRating: value_lt 0.50
+    society.approvalRating: absolute_delta_gt 0.0
+    game.numTurnsToNextElections: value_ge 6
+End
+
+Message: report.approvalRating.below50_falling_elections_far [39]
+    society.approvalRating: value_gt 0.45
+    society.approvalRating: value_lt 0.50
+    society.approvalRating: absolute_delta_lt 0.0
+    game.numTurnsToNextElections: value_ge 6
+End
+
+Message: report.approvalRating.below50_elections_close [39]
+    society.approvalRating: value_gt 0.45
+    society.approvalRating: value_lt 0.50
+    society.approvalRating: absolute_delta_eq 0.0
+    game.numTurnsToNextElections: value_lt 6
+End
+
+Message: report.approvalRating.below50_rising_elections_close [39]
+    society.approvalRating: value_gt 0.45
+    society.approvalRating: value_lt 0.50
+    society.approvalRating: absolute_delta_gt 0.0
+    game.numTurnsToNextElections: value_lt 6
+End
+
+Message: report.approvalRating.below50_falling_elections_close [39]
+    society.approvalRating: value_gt 0.45
+    society.approvalRating: value_lt 0.50
+    society.approvalRating: absolute_delta_lt 0.0
+    game.numTurnsToNextElections: value_lt 6
+End
+
+Message: report.approvalRating.low_elections_far [39]
+    society.approvalRating: value_gt 0.35
+    society.approvalRating: value_le 0.45
+    society.approvalRating: absolute_delta_eq 0.0
+    game.numTurnsToNextElections: value_ge 6
+End
+
+Message: report.approvalRating.low_rising_elections_far [39]
+    society.approvalRating: value_gt 0.35
+    society.approvalRating: value_le 0.45
+    society.approvalRating: absolute_delta_gt 0.0
+    game.numTurnsToNextElections: value_ge 6
+End
+
+Message: report.approvalRating.low_falling_elections_far [39]
+    society.approvalRating: value_gt 0.35
+    society.approvalRating: value_le 0.45
+    society.approvalRating: absolute_delta_lt 0.0
+    game.numTurnsToNextElections: value_ge 6
+End
+
+Message: report.approvalRating.low_elections_close [39]
+    society.approvalRating: value_gt 0.35
+    society.approvalRating: value_le 0.45
+    society.approvalRating: absolute_delta_eq 0.0
+    game.numTurnsToNextElections: value_lt 6
+End
+
+Message: report.approvalRating.low_rising_elections_close [39]
+    society.approvalRating: value_gt 0.35
+    society.approvalRating: value_le 0.45
+    society.approvalRating: absolute_delta_gt 0.0
+    game.numTurnsToNextElections: value_lt 6
+End
+
+Message: report.approvalRating.low_falling_elections_close [39]
+    society.approvalRating: value_gt 0.35
+    society.approvalRating: value_le 0.45
+    society.approvalRating: absolute_delta_lt 0.0
+    game.numTurnsToNextElections: value_lt 6
+End
+
+Message: report.approvalRating.very_low [39]
+    society.approvalRating: value_le 0.35
+    society.approvalRating: absolute_delta_eq 0.0
+End
+
+Message: report.approvalRating.very_low_rising [39]
+    society.approvalRating: value_le 0.35
+    society.approvalRating: absolute_delta_gt 0.0
+End
+
+Message: report.approvalRating.very_low_falling [39]
+    society.approvalRating: value_le 0.35
+    society.approvalRating: absolute_delta_lt 0.0
+End
+
+
+
+#*********************************
+#****    Election warnings    ****
+#*********************************
+Message: report.elections.six_months [29]
+    game.numTurnsToNextElections: value_eq 3
+End
+
+Message: report.elections.four_months [29]
+    game.numTurnsToNextElections: value_eq 2
+End
+
+Message: report.elections.two_months [29]
+    game.numTurnsToNextElections: value_eq 1
+End
+
+
+#******************************
+#*******    Events     ********
+#******************************
+Message: report.crisis.hospital_bankruptcy [19]
+    game.events: value_contains hospital_banckrupcy
+End
+
+Message: report.crisis.shortage_of_medical_staff [19]
+    game.events: value_contains not_enough_doctors
+End
+
+Message: report.crisis.fuel_shortage_in_police [19]
+    game.events: value_contains fuel_shortage_in_police
+End
+
+Message: report.demonstrations.private_sector.ave_wage_low [19]
+    game.events: value_contains demonstrations.private_sector.income_low
+End
+
+Message: report.demonstrations.public_sector.ave_wage_low [19]
+    game.events: value_contains demonstrations.public_sector.income_low
+End
+
+Message: report.demonstrations.unemployed.ave_benefit_low [19]
+    game.events: value_contains demonstrations.unemployed.income_low
+End
+
+Message: report.demonstrations.retired.ave_benefit_low [19]
+    game.events: value_contains demonstrations.retired.income_low
+End
+
+Message: report.demonstrations.all.inflation_high [19]
+    game.events: value_contains demonstrations.all.inflation_high
+End
+
+Message: report.demonstrations.all.unemployment_high [19]
+    game.events: value_contains demonstrations.all.unemployment_high
+End
+
+Message: report.demonstrations.all.public_sector_effectiveness_low [19]
+    game.events: value_contains demonstrations.all.public_sector_effectiveness_low
+End
+
+Message: report.demonstrations.all.income_tax_rate_high [19]
+    game.events: value_contains demonstrations.all.income_tax_rate_high
+End
+
+Message: report.demonstrations.all.vat_rate_high [19]
+    game.events: value_contains demonstrations.all.vat_rate_high
+End
+
+
+#******************************
+#*****    Narratives     ******
+#******************************
+Message: narrative.party_warning_1
+    game.events: value_contains party_warning_1
+End
+
+Message: narrative.party_warning_2
+    game.events: value_contains party_warning_2
+End
+
+Message: narrative.party_warning_3
+    game.events: value_contains party_warning_3
+End

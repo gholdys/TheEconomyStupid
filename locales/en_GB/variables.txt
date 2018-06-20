@@ -1,0 +1,56 @@
+economics.gdp = GDP
+economics.gdpGrowthRate = GDP Growth Rate
+economics.output = Output
+economics.consumption = Consumption
+economics.investment =  Investment
+economics.exports = Exports
+economics.imports = Imports
+economics.governmentSpending = Government Spending
+economics.taxRevenues = Tax Revenues
+economics.unemploymentRate = Unemployment Rate
+economics.inflationRate = Inflation Rate
+economics.interestRate = Interest Rate
+economics.nationalDebtToGdp = National Debt as percentage of GDP
+economics.nationalDebt = National Debt
+economics.budgetDeficit = Budget Deficit
+economics.workforce = Workforce
+
+society.totalPopulation = Population
+society.approvalRating = Approval Rating
+
+policies.vat.revenues = VAT Revenues
+policies.incomeTax.revenues = Income Tax Revenues
+policies.unemploymentBenefits.costs = Unemployment Benefits Costs
+policies.retirementBenefits.costs = Retirement Benefits Costs
+policies.publicSectorFunding.costs = Public Sector Funding Costs
+
+policies.vat = VAT
+policies.incomeTax = Income Tax
+policies.unemploymentBenefits = Unemployment Benefits
+policies.retirementBenefits = Retirement Benefits
+policies.publicSectorFunding = Public Sector Funding
+policies.retirementAge = Retirement Age
+
+socialGroups.privateSectorEmployees = Private Sector Employees
+socialGroups.privateSectorEmployees.numPeople = Number of private sector employees
+socialGroups.privateSectorEmployees.populationPart = Private sector employees as part of the whole population
+socialGroups.privateSectorEmployees.averageGrossIncome = Average gross income of private sector employees
+socialGroups.privateSectorEmployees.approvalRating = Approval rating among private sector employees
+
+socialGroups.publicSectorEmployees = Public Sector Employees
+socialGroups.publicSectorEmployees.numPeople = Number of public sector employees
+socialGroups.publicSectorEmployees.populationPart = Public sector employees as part of the whole population
+socialGroups.publicSectorEmployees.averageGrossIncome = Average gross income of public sector employees
+socialGroups.publicSectorEmployees.approvalRating = Approval rating among public sector employees
+
+socialGroups.retired = Retired People
+socialGroups.retired.numPeople = Number of retired people
+socialGroups.retired.populationPart = Retired as part of the whole population
+socialGroups.retired.averageGrossIncome = Average gross income of retired people
+socialGroups.retired.approvalRating = Approval rating among retired people
+
+socialGroups.unemployed = Unemployed People
+socialGroups.unemployed.numPeople = Number of unemployed people
+socialGroups.unemployed.populationPart = Unemployed as part of the whole population
+socialGroups.unemployed.averageGrossIncome = Average gross income of unemployed people
+socialGroups.unemployed.approvalRating = Approval rating among unemployed people

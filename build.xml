@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="The economy, stupid! 1.0.x (11-11-2010)" default="compile" basedir=".">
+    <property name="source" location="source"/>
+    <property name="build" location="build"/>
+    <property name="dist" location="dist"/>
+    <property name="libname" value="theeconomystupid"/>
+    <property name="version" value="1.0.0"/>
+    <buildnumber file="build.num"/>
+    <tstamp>
+        <format property="now" pattern="yyyy-MM-dd HH:mm:ss" />
+    </tstamp>
+    
+    <target name="init">
+        <tstamp/>
+        <mkdir dir="${build}"/>
+        <mkdir dir="${dist}"/>
+    </target>
+	
+    <target name="compile" depends="init" description="compile the source ">
+        <javac srcdir="${source}" excludes="jvca/**" destdir="${build}" debug="on" source="1.6" target="1.6">
+            <compilerarg value="-Xlint:unchecked" />
+            <compilerarg value="-Xlint:deprecation" />
+        </javac>
+        <javac srcdir="${source}" excludes="game/**" destdir="${build}" debug="on" source="1.2" target="1.2">
+        </javac>
+        <jar destfile="${dist}/${libname}-${version}.jar">
+            <manifest>
+                <attribute name="Main-Class" value="eu.theeconomystupid.Main"/>
+            </manifest>
+            <fileset dir="${build}" excludes="jvca/**"/>
+            <fileset dir="." includes="graphics/**,locales/**,config/**"/>
+        </jar>
+    </target>
+
+    <target name="run-game" depends="compile">
+        <java classname="eu.theeconomystupid.Main" fork="true">
+            <classpath>
+                <pathelement location="${dist}/${libname}-${version}.jar"/>
+            </classpath>
+        </java>
+    </target>
+    
+    <target name="clean" description="clean up" >
+        <delete dir="${build}"/>
+        <delete dir="${dist}"/>
+    </target>
+
+</project>

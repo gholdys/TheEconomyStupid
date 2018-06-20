@@ -1,0 +1,18 @@
+inflation_rate_high = High inflation rate
+inflation_rate_low = Low inflation rate
+
+unemployment_rate_high = High unemployment rate
+unemployment_rate_low = Low unemployment rate
+
+public_sector_effectiveness_high = Good condition of public sector
+public_sector_effectiveness_low = Bad condition of public sector
+
+income_tax_rate_high = High income tax
+income_tax_rate_low = Low income tax
+
+vat_rate_high = High VAT
+vat_rate_low = Low VAT
+
+income_high = High income
+income_low = Low income
+

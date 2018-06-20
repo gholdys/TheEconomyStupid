@@ -1,0 +1,12 @@
+<launch4jConfig>
+  <headerType>gui</headerType>
+  <jar>../dist/theeconomystupid-1.0.0.jar</jar>
+  <outfile>../theeconomystupid-1.0.0.exe</outfile>
+  <errTitle>TES</errTitle>
+  <chdir>.</chdir>
+  <icon>tes.ico</icon>
+  <restartOnCrash>true</restartOnCrash>
+  <jre>
+    <minVersion>1.6.0</minVersion>
+  </jre>
+</launch4jConfig>
