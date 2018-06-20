@@ -1,4 +1,4 @@
-# TheEconomyStupid
+# The Economy, Stupid!
 
 "The Economy, Stupid!" is a macroeconomics simulation game that Insight Machines created as its very first project, more than 10 years ago. It was a venture into the world of macroeconomic simulations and serious games. The game runs on Java so you'll need a Java Runtime to run it. You can get the newest version from [here](https://java.com/en/download/). 
 
